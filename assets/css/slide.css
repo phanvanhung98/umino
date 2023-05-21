@@ -1,0 +1,139 @@
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  padding: 0 30px;
+  position: relative;
+}
+.mySlides img {
+    min-height: 791px;
+}
+@media (max-width: 1199px) {
+    .mySlides {
+        padding: 0;
+    }
+    .mySlides img {
+        min-height: 600px;
+    }
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #fff;
+  opacity: .4;
+  margin-top: -22px;
+  color: #111111;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 100%;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 60px;
+}
+.prev {
+  left: 60px;
+}
+@media (max-width: 1199px) {
+    .prev, .next {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    .next {
+        right: 30px;
+    }
+    .prev {
+        left: 30px;
+    }
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    opacity: .6;
+}
+
+/* Caption text */
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fadee {
+  animation-name: fadee;
+  animation-duration: 1s;
+}
+
+@keyframes fadee {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+.cms-content-slide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cms-content-slide .cms-sup-title {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.cms-content-slide .cms-title-slide {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 20px auto 25px;
+    width: 800px;
+    color: #fff;
+}
+.cms-content-slide .cms-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+}
+.cms-btn-slide {
+    margin-top: 60px;
+}
+@media (max-width: 1199px) {
+    .cms-content-slide .cms-title-slide {
+        font-size: 70px;
+    }
+}
+@media (max-width: 767px) {
+    .cms-content-slide .cms-title-slide {
+        font-size: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .cms-content-slide .cms-title-slide {
+        font-size: 30px;
+    }
+    .cms-content-slide .cms-description {
+        font-size: 14px;    
+    }
+}

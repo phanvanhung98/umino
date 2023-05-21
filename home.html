@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Umino - Demo</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/general-sans.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slide.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<div id="site-header-wrap" class="header-layout">
+			<div id="site-header" class="site-header-main">
+				<div class="container container-fluidd">
+					<div class="row custom-row row-mega-menu">
+						<div class="info-left d-flex ">
+							<div class="cms-phone">
+								<a href="tel:22218002628">+222-1800-2628</a>
+							</div>
+							<div class="cms-email">
+								<a href="mailto:blueskytechcompany@gmail.com">blueskytechcompany@gmail.com</a>
+							</div>
+						</div>
+						<div class="first-order">	
+							<span>Sign up for 10% off your first order: </span>
+							<a href="#">Sign Up</a>
+						</div>	
+						<div class="info-right d-flex">
+							 <div class="cms-store">
+								<a href="#">Our Stores</a>
+							</div>
+							<div class="cms-lang-curentcy">
+									<div class="cms-lang">
+										<div class="cms-langue-active">English</div>
+										<ul>
+											<li><a href="#">Nederlands</a></li>
+											<li><a href="#">Germany</a></li>
+											<li><a href="#">日本語</a></li>
+										</ul>
+									</div>
+									<div class="cms-currency-unit">
+										<div class="cms-currency-active">United States (USD $)</div>
+										<ul>
+											<li><a href="#">France (EUR €)</a></li>
+											<li><a href="#">Japan (JPY ¥)</a></li>
+											<li><a href="#">United Kingdom (GBP £)</a></li>
+											<li><a href="#">United States (USD $)</a></li>
+										</ul>
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="row custom-row row-menu">
+						<div class="site-branding">
+							<a class="logo-mobile" href="#" title="Mori"><img src="assets/image/logo-mobile.png" alt="Mori"></a>
+						</div>
+						<div id="menucon" class="site-navigation">	
+							<nav class="main-navigation">	
+								<ul class="primary-menu clearfix">	
+									<li>
+										<a href="#">Home</a>
+										<ul class="sub-menu" style="display: none;">
+											<li class="menu-item menu-item-type-post_type menu-item-object-page">
+												<a href="#">Home Creative</a>
+											</li>
+										</ul>
+										<span class="main-menu-toggle"></span>
+									</li>
+									<li><a href="#">Shop</a><span class="main-menu-toggle"></span></li>
+									<li><a href="#">Product</a><span class="main-menu-toggle"></span></li>
+									<li><a href="#">Page</a><span class="main-menu-toggle"></span></li>
+									<li><a href="#">Blog</a><span class="main-menu-toggle"></span></li>
+									<li><a href="#">Buy Umino!</a><span class="main-menu-toggle"></span></li>
+								</ul>	
+							</nav>	
+						</div>	
+						<div class="site-header-right">
+							<div class="cms-icon">
+								<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+								<a href="#"><i class="fa-regular fa-user"></i></a>
+								<a href="#"><i class="fa-regular fa-clock"></i></a>
+								<a href="#"><i class="fa-regular fa-heart"></i></a>
+								<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div id="menu-mobile" class="main-menu-mobile">
+					<span class="btn-nav-mobile open-menu" onclick="navOpen()"><span></span></span>
+				</div>
+			</div>
+		</div>
+	</header>	
+
+	<div class="slideshow-container">
+	  	<div class="mySlides fadee">
+	    	<img src="assets/image/img-slide1.jpg" style="width:100%">
+	    	<div class="cms-content-slide text-center">
+	    		<div class="cms-sup-title">Beautiful & Elegant</div>
+	    		<h5 class="cms-title-slide">Premium Bedroom</h5>
+	    		<div class="cms-description">Discount 50% On Products & Free Shipping.</div>
+	    		<div class="cms-btn-slide">
+					<a class="btn-main btn-white" href="#">Shop Now</a>
+				</div>
+	    	</div>
+	  	</div>
+
+	  	<div class="mySlides fadee">
+	    	<img src="assets/image/img-slide1.jpg" style="width:100%">
+	    	<div class="cms-content-slide text-center">
+	    		<div class="cms-sup-title">Beautiful & Elegant</div>
+	    		<h5 class="cms-title-slide">Luxury Bedroom</h5>
+	    		<div class="cms-description">Discount 50% On Products & Free Shipping.</div>
+	    		<div class="cms-btn-slide">
+					<a class="btn-main btn-white" href="#">Shop Now</a>
+				</div>
+	    	</div>
+	  	</div>
+
+	  	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<!-- Content Main -->
+	<main id="content" class="site-content">
+		<div class="content-inner">
+			<div class="container container-fluidd">
+				<div class="row row-custom">
+					<div id="primary" class="content-area col-12">
+						<div id="main" class="site-main">
+
+							<section class="cms-content-main cms-section-categoties">
+								<div class="cms-heading-widget text-center">
+									<h2 class="cms-heading">Top Categories</h2>
+									<div class="cms-description">Our products are designed for everyone, environmentally friendly.</div>
+								</div>
+								<div class="cms-image-categories-widget">
+									<div class="container container-fluidddd">
+										<div class="row row-custom text-center">
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-cate1.jpg">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-cate2.jpg">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-cate3.jpg">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-cate4.jpg">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-cate5.jpg">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-cate6.jpg">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="cms-content-main cms-section-product">
+								<div class="cms-heading-widget text-center">
+									<h2 class="cms-heading">Top Trending</h2>
+									<div class="cms-description">Our products are designed for everyone, environmentally friendly.</div>
+								</div>
+								<div class="cms-product-grid-widget">
+									<div class="container container-fluiddd">
+										<div class="row row-custom row1">
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">	
+													<img src="assets/image/img-product1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">
+													<img src="assets/image/img-product2.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+													<span class="precent-sale">-50%</span>
+													<span class="pre-order">Pre-Order</span>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">
+													<span class="price-update">$569.00</span>
+													<span class="price-sale">$169.00</span>
+												</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">
+													<img src="assets/image/img-product3.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">
+													<img src="assets/image/img-product4.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">$569.00</div>	
+											</div>
+										<!-- </div> -->
+
+										<!-- <div class="row row-custom row2"> -->
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">	
+													<img src="assets/image/img-product5.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">
+													<img src="assets/image/img-product6.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">
+													<img src="assets/image/img-product7.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="cms-img">
+													<img src="assets/image/img-product8.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+													<span class="precent-sale">-50%</span>
+													<span class="pre-order">Pre-Order</span>
+												</div>
+												<h2 class="cms-heading-product">Form Chair Brass Base</h2>
+												<div class="cms-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="cms-product-price">
+													<span class="price-update">$569.00</span>
+													<span class="price-sale">$169.00</span>
+												</div>	
+											</div>
+										</div>
+										<div class="cms-btn-loadmore-product">
+											<a class="btn-main btn-out-line btn-load-more " href="#">Load More</a>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="cms-content-main bg-image cms-section-bgr-box" style="background-image: url('assets/image/bgr-section1.jpg');">
+								<div class="cms-about-widget">
+									<div class="container container-fluid">
+										<div class="row row-custom">
+											<div class="cms-about-box text-center">
+												<div class="cms-sub-heading">LIMITED EDITION</div>
+												<h5 class="cms-heading">Unique Style</h5>
+												<div class="cms-description lh-28">The watch is carefully designed with quality materials, such as the domed sapphire crystal, and the meticulous level of detail - from the dial to the delicate gold hour markers.</div>	
+												<a class="cms-btn-about btn-main" href="#">Discover Now</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="cms-content-main cms-section-contact">
+								<div class="cms-fancy-box-widget">
+									<div class="container container-fluid">
+										<div class="row row-custom">
+											<div class="entry-icon text-center col-md-6 col-xl-4">
+												<div class="cms-icon">
+													<img src="assets/image/icon-group.png">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+												<div class="cms-description">Get complimentary ground shipping on every order. Don't love it? Send it back, on us.</div>	
+											</div>
+											<div class="entry-icon text-center col-md-6 col-xl-4">
+												<div class="cms-icon">
+													<img src="assets/image/icon-check.png">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+												<div class="cms-description">Free returns within 10 days, please make sure the items are in undamaged condition.</div>
+											</div>
+											<div class="entry-icon text-center col-md-6 col-xl-4">
+												<div class="cms-icon">
+													<img src="assets/image/icon-chat.png">
+												</div>
+												<h4 class="cms-heading">Free Shipping</h4>
+												<div class="cms-description">We support customers 24/7, send questions we will solve for you immediately.</div>
+											</div>
+							
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="cms-content-main cms-section-follow-us">
+								<div class="cms-heading-widget text-center border-main">
+									<h2 class="cms-heading">Follow Us</h2>
+									<div class="cms-description">Inspire and let yourself be inspired, from one unique fashion to another.</div>
+								</div>
+								<div class="cms-image-insta-widget">
+									<div class="container container-fluiddd">
+										<div class="row row-custom">
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-insta1.jpg">
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-insta2.jpg">
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-insta3.jpg">
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-insta4.jpg">
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-insta5.jpg">
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="cms-img">
+													<img src="assets/image/img-insta6.jpg">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</main>
+
+	<!-- Footer -->
+ 	<footer id="colophon" class="site-footer-custom">
+		<div class="cms-footer-middle">
+			<div class="container container-fluid">
+				<div class="row row-custom">
+					<div class="column-1 col-md-6 col-xl-4">
+						<div class="cms-image-logo">
+							<img alt="logo-footer" src="assets/image/logo-footer.png" class="attachment-full">
+						</div>
+						<div class="cms-address">
+							<p>268 St, South New York/NY 98944, United States</p>
+						</div>
+						<div class="cms-phone">
+							<a href="tel:22218002628">+222-1800-2628</a>
+						</div>
+						<div class="cms-email">
+							<a href="mailto:blueskytechcompany@gmail.com">blueskytechcompany@gmail.com</a>
+						</div>
+						<div class="cms-icon">
+							<a href="#"><i aria-hidden="true" class="fa-brands fa-facebook-f"></i></a>
+							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+							<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+							<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+							<a href="#"><i class="fa-brands fa-youtube"></i></a>
+							<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+						</div>
+					</div>
+					<div class="column-2 col-md-6 col-xl-2">
+						<h3 class="cms-heading-footer">Customer Service</h3>
+						<ul class="cms-list-menu">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Refund Policy</a></li>
+							<li><a href="#">Shipping & Return</a></li>
+							<li><a href="#">Term & Conditions</a></li>
+							<li><a href="#">Advanced Search</a></li>
+							<li><a href="#">Store Locations</a></li>
+						</ul>
+					</div>	
+
+					<div class="column-3 col-md-6 col-xl-2">
+						<h3 class="cms-heading-footer">Shop By Categories</h3>
+						<ul class="cms-list-menu">
+							<li><a href="#">Smartphone</a></li>
+							<li><a href="#">Headphones</a></li>
+							<li><a href="#">Computer & Desktop</a></li>
+							<li><a href="#">Cameras & Photos</a></li>
+							<li><a href="#">Laptop & Ipad</a></li>
+						</ul>
+					</div>	
+
+					<div class="column-4 col-md-6 col-xl-4">
+						<h3 class="cms-heading-footer">Sign Up to Newsletter</h3>
+						<div class="cms-description">
+							<p>Enter your email address to get $10 off your first order and free shipping. Updates information on Sales and Offers.</p>
+						</div>
+						<div class="cms-newsletter">
+							<form class="tnp-form" action="#" method="post" onsubmit="return newsletter_check(this)"> 
+								<input type="hidden" name="nr" value="widget-minimal">
+								<div class="tnp-field tnp-field-email"> 
+									<input class="tnp-email" type="email" required="" name="ne" value="" placeholder="Enter your email..." style="">
+								</div>
+								<div class="tnp-field tnp-field-button"> 
+									<input class="tnp-button" type="submit" value="Subscribe">
+								</div>
+							</form>
+						</div>
+					</div>	
+
+				</div>			
+			</div>
+		</div>
+		<div class="cms-footer--bottom">
+			<div class="container container-fluid">
+				<div class="row-custom">
+					<div class="cms-footer-bottom-content d-flex align-center">
+						<div class="cms-lang-curentcy">
+							<div class="cms-lang">
+								<div class="cms-langue-active">English</div>
+								<ul>
+									<li><a href="#">Nederlands</a></li>
+									<li><a href="#">Germany</a></li>
+									<li><a href="#">日本語</a></li>
+								</ul>
+							</div>
+							<div class="cms-currency-unit">
+								<div class="cms-currency-active">United States (USD $)</div>
+								<ul>
+									<li><a href="#">France (EUR €)</a></li>
+									<li><a href="#">Japan (JPY ¥)</a></li>
+									<li><a href="#">United Kingdom (GBP £)</a></li>
+									<li><a href="#">United States (USD $)</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="cms-footer-copyright">
+							<p>
+								© 2023 Umino Store. All Rights Reserved
+							</p>
+						</div>
+						<div class="cms-footer-payment">
+							<img alt="payment" src="assets/image/payment_f.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<a href="#" class="scroll-top on">
+		<i class="zmdi zmdi-long-arrow-up"></i>
+	</a>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/slide.js"></script>
+</body>
+</html>
